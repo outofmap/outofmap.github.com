@@ -1,3 +1,20 @@
+---
+layout: post
+title: "First Mysql feat.생활코딩"                 # Title of the post
+description: 처음 써보는 Mysql       # Description of the post, used for Facebook Opengraph & Twitter
+headline: Web Server Programming              # Will appear in bold letters on top of the post
+modified: 2015-08-04                # Date
+category: personal
+tags: 
+	-WebProgramming
+	-Mysql
+	-DB
+	-newbieProgrammer
+image: 
+  feature: .jpg
+comments: true
+mathjax:
+---
 char() 와 varchar() 비교
 
 char() : 고정문자 길이. 고정문자는 ex.도시명 처럼 길이의 제약이 있는 경우 사용하면
@@ -55,3 +72,5 @@ ex.
 select * from student order by distance desc;
 select * from student order by distance desc, address asc;
 distance를 기준으로 먼저 desc로 정렬하고, 동일한 경우 address를 기준으로 asc 정렬함.
+
+Database Access Object 
