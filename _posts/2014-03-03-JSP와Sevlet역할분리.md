@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Jsp와 servlet"
+description: "web server Project"
+category: webServer
+tags: [webserver, log]
+imagefeature: 
+comments: true
+share: true
+---
 ###문제점
 - 코드가 많이 지니까 java코드가 섞이면서 jsp가 복잡하고 알아보기 어려워졌음. 
 - jsp가 너무 많은 일을 할 수록 유지 보수가 어려워짐.

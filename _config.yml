@@ -136,13 +136,13 @@ prose:
           placeholder: "Choose categories"
           value: personal
           options:
-            - name: "Personal"
-              value: personal
-            - name: "Web-Development"
-              value: webdevelopment
+            - name: "Daily"
+              value: Daily
+            - name: "WebServer"
+              value: webServer
             - name: "Interesting"
               value: interesting
-            - name: "Status"
+            - name: "Books"
               value: status
             - name: "Quotes"
               value: quotes

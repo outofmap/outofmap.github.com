@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "logging framework"
+title: "logging Framework"
 description: "web server Project"
-category: 
+category: webServer
 tags: [webserver, log]
 imagefeature: 
 comments: true
 share: true
----# 로그에도 레벨이 있음!
+---
+# 로그에도 레벨이 있음!
 debug < info < warn < error 
 
 - debug 메시지가 많아지면 성능에 문제가 생길 수 있음.

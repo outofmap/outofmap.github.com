@@ -1,19 +1,12 @@
 ---
 layout: post
-title: "First Mysql feat.생활코딩"                 # Title of the post
-description: 처음 써보는 Mysql       # Description of the post, used for Facebook Opengraph & Twitter
-headline: Web Server Programming              # Will appear in bold letters on top of the post
-modified: 2015-08-04                # Date
-category: personal
-tags: 
-	-WebProgramming
-	-Mysql
-	-DB
-	-newbieProgrammer
-image: 
-  feature: .jpg
+title: "char() vs varchar()"
+description: "web server Project"
+category: webServer
+tags: [webserver, mysql]
+imagefeature: 
 comments: true
-mathjax:
+share: true
 ---
 char() 와 varchar() 비교
 
