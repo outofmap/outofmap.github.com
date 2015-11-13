@@ -26,7 +26,7 @@ owner:
   avatar:         
   email:          enjoyhee@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    DDDDDESCRIPTIONSSSS
+  description:    Newbie Engineer and NEXT Student
   # Social networking links used in footer. Update and remove as you like.
   facebook:       "songhee913"     
   github:         outofmap
@@ -49,7 +49,7 @@ links:
   - title: Tags
     url: /tags
   - title: Guess me!
-    url: /hossain-mohd-faysal
+    url: /outofmap
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Tokyo
@@ -136,16 +136,16 @@ prose:
           placeholder: "Choose categories"
           value: personal
           options:
-            - name: "Daily"
-              value: Daily
+            - name: "study"
+              value: study
             - name: "WebServer"
               value: webServer
-            - name: "Interesting"
-              value: interesting
-            - name: "Books"
-              value: status
-            - name: "Quotes"
-              value: quotes
+            - name: "insight"
+              value: insight
+            - name: "UI"
+              value: UI
+            - name: "DB"
+              value: DB
           alterable: true
       - name: "tags"
         field:
