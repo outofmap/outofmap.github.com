@@ -16,14 +16,18 @@ Q. apache는 배포서버에서 꼭 다운 받아야하나요?
 < apache vs tomcat >
 공통점 : apache, tomcat모두 웹서버이다. 
 차이점 : 
-* tomcat은 동적인 web app을 만드는데 특화되어있다. 반면에, apache 정적인 web app을 만드는데 특화되어있다. 
+* tomcat은 동적인 web app을 만드는데 특화되어있다. 반면에, apache 정적인 web app만 만들 수있다.
 * apache기 있고, 사용자가 정적인 자원을 요청하는 경우, apache에서 tomcat까지 가지않고 바로 자신이 알고있는 directory path에서 바로 찾아서 보내준다.
 
   
 Q.apache를 거쳐가게 하면 느리지 않을까? 느려질 수도 있는데 왜 쓰지?
+* tomcat은 정적인 자원은 apache에 비해 매우 느리게 준다. 비용이 많이든다. 그래서 apache와 tomcat의 각각의 장점을 모두 취하는 방식이다 apache 와 tomcat을 모두 사용하는 것이다.
 * tomcat server 점검하려면, tomcat을 꺼야하는데 사용자에게 아무것도 못보여준다.
 그래서 apache가 tomcat을 바라보게 하고있다가 점검페이지를 바라보게 바꿀 수 있음.
 * apache와 tomcat을 같은공간에 설치하면, 네트워크 비용이 거의 들지 않는다. 
+  * cache server -> Apache -> tomcat으로 서버를 구성할 수도 있다. 
+  cache server : 사람들이 자주 찾는 자원(data)가 있을 때, 이 데이터를 메모리에 저장해둔다. 그러면 인기있는 요청에 빠르게 대응할 수 있고, 매번 자원 위치까지 찾아가는 비용을 줄일 수 있다.
+
 
 ### H2 메모리 DB
 
